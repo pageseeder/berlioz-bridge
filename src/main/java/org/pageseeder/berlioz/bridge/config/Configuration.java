@@ -1,7 +1,7 @@
 /*
  * Copyright (c) 1999-2014 allette systems pty. ltd.
  */
-package org.pageseeder.berlioz.bridge.util;
+package org.pageseeder.berlioz.bridge.config;
 
 import java.util.ArrayList;
 import java.util.Iterator;

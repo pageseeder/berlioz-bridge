@@ -28,7 +28,7 @@ import org.pageseeder.berlioz.bridge.auth.RememberMe;
 import org.pageseeder.berlioz.bridge.auth.Sessions;
 import org.pageseeder.berlioz.bridge.auth.User;
 import org.pageseeder.berlioz.bridge.auth.RememberMe.Credentials;
-import org.pageseeder.berlioz.bridge.util.Configuration;
+import org.pageseeder.berlioz.bridge.config.Configuration;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 

@@ -12,7 +12,7 @@ import org.pageseeder.berlioz.bridge.auth.AuthException;
 import org.pageseeder.berlioz.bridge.auth.Authenticator;
 import org.pageseeder.berlioz.bridge.auth.Sessions;
 import org.pageseeder.berlioz.bridge.auth.User;
-import org.pageseeder.berlioz.bridge.util.Configuration;
+import org.pageseeder.berlioz.bridge.config.Configuration;
 import org.pageseeder.berlioz.content.ContentGenerator;
 import org.pageseeder.berlioz.content.ContentRequest;
 
