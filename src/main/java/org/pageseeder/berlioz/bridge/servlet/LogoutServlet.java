@@ -35,7 +35,7 @@ public final class LogoutServlet extends HttpServlet {
   /**
    * URL of resource of the ping.
    */
-  private static final String RESOURCE_URL = "/org/pageseeder/berlioz/bridge/auth/resource/FFFFFF-0.png";
+  private static final String RESOURCE_URL = "/org/pageseeder/berlioz/bridge/servlet/FFFFFF-0.png";
 
   /**
    * If the content type is specified.

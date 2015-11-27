@@ -34,7 +34,7 @@ public final class PingServlet extends HttpServlet {
   /**
    * URL of resource of the ping.
    */
-  private static final String RESOURCE_URL = "/org/weborganic/bastille/security/resource/tick.png";
+  private static final String RESOURCE_URL = "/org/pageseeder/berlioz/bridge/servlet/FFFFFF-0.png";
 
   /**
    * If the content type is specified.
