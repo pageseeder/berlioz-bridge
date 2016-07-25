@@ -5,12 +5,14 @@ package org.pageseeder.berlioz.bridge.auth;
 
 import java.io.Serializable;
 
+import javax.servlet.http.HttpServletRequest;
+
 /**
  * A URL to save.
  *
  * @author Christophe Lauret
  *
- * @version 0.1.0
+ * @version 0.3.1
  * @since 0.1.0
  */
 public final class ProtectedRequest implements Serializable {
@@ -47,6 +49,22 @@ public final class ProtectedRequest implements Serializable {
   @Override
   public String toString() {
     return this._url;
+  }
+
+  /**
+   * Create a new protected request from the specified servlet request.
+   *
+   * <p>The url is created from the request URI and query if there is one.
+   *
+   * @param request The HTTP request.
+   */
+  public static ProtectedRequest create(HttpServletRequest request) {
+    String url  = request.getRequestURI();
+    String query = request.getQueryString();
+    if (query != null) {
+      url = url + '?' +query;
+    }
+    return new ProtectedRequest(url);
   }
 
 }
