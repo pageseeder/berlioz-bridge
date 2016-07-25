@@ -60,7 +60,7 @@ public final class PingServlet extends HttpServlet {
 
   @Override
   protected void doGet(HttpServletRequest req, HttpServletResponse res) throws ServletException, IOException {
-
+    res.setHeader("Cache-Control", "no-cache");
     // If the data is defined and found
     if (this._data != null) {
 
