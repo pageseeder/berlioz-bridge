@@ -101,8 +101,8 @@ public final class PSAuthenticator implements Authenticator<PSUser> {
   public AuthenticationResult login(HttpServletRequest req) throws AuthException {
 
     // Grab the username and password from parameters
-    String username = req.getParameter("username") != null ? req.getParameter("username").trim() : null;
-    String password = req.getParameter("password") != null ? req.getParameter("password").trim() : null;
+    String username = req.getParameter("username") != null ? req.getParameter("username") : null;
+    String password = req.getParameter("password") != null ? req.getParameter("password") : null;
 
     // Credentials can also be passed on as string attributes (none were specified in the request)
     if ((username == null || username.length() == 0)
