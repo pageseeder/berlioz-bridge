@@ -89,7 +89,7 @@
     <dependency>
       <groupId>org.pageseeder.bridge</groupId>
       <artifactId>pso-bridge</artifactId>
-      <version>0.8.0</version>
+      <version>0.11.34</version>
     </dependency>
 
     <dependency>
